@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html>
+
+<head>
+  <title>Simon Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <audio id="audio1" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+  <audio id="audio2" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+  <audio id="audio3" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+  <audio id="audio4" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+  <div class="wrap">
+    <div class="wrap-in">
+      <div class="rw">
+        <div class="t-l inline push green unclickable" id="3"></div>
+        <div class="t-r inline push red unclickable" id="2"></div>
+      </div>
+      <div class="rw">
+        <div class="b-l inline push yellow unclickable" id="1"></div>
+        <div class="b-r inline push blue unclickable" id="0"></div>
+      </div>
+    </div>
+    <div class="center">
+      <h4 id="wrong"></h4>
+      <h1 class="brand">Simon</h1>
+      <div class="rw">
+        <div class="display inline">
+          <h1 class="count led-off">--</h1>
+          <h3 class="label">Count</h3>
+        </div>
+        <div class="btn-box inline">
+          <div class="round-btn full-red but clickable" id="start"></div>
+          <h3 class="label">START</h3>
+        </div>
+        <div class="btn-box inline">
+          <div class="round-btn but clickable" id="mode"></div>
+          <h3 class="label">STRICT</h3>
+          <div class="led" id="mode-led"></div>
+        </div>
+      </div>
+      <div class="rw bot">
+        <h3 class="label inline">OFF</h3>
+        <div class="sw-slot inline">
+          <div class="switch" id="pwr-sw"></div>
+        </div>
+        <h3 class="label inline">ON</h3>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+  <script src="simon.js" type "text/javascript"></script>
+</body>
+
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
